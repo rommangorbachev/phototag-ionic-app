@@ -63,6 +63,9 @@ yarn-error.log
 testem.log
 /typings
 
+#config
+src/fireBase.config.ts
+
 # System files
 .DS_Store
 Thumbs.db
