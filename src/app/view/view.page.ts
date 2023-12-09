@@ -1,9 +1,10 @@
-import {AfterViewInit, Component, ElementRef, OnInit, ViewChild} from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
-import { IonicModule } from '@ionic/angular';
-import { Viewer } from 'cesium';
-import { CesiumService } from '../cesium.service';
+import {AfterViewInit, Component, ElementRef, ViewChild} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {FormsModule} from '@angular/forms';
+import {IonicModule} from '@ionic/angular';
+import {Viewer} from 'cesium';
+import {CesiumService} from '../cesium.service';
+
 @Component({
   selector: 'app-view',
   templateUrl: './view.page.html',

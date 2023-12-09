@@ -1,8 +1,7 @@
-import { Firestore, collection, getDocs } from '@angular/fire/firestore';
-import { Cartesian3, Color, PinBuilder, Viewer } from 'cesium';
-import { Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
+import {collection, Firestore, getDocs} from '@angular/fire/firestore';
+import {Cartesian3, Color, PinBuilder, Viewer} from 'cesium';
 import {Injectable} from "@angular/core";
+
 @Injectable({
   providedIn: 'root'
 })

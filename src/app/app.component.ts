@@ -1,10 +1,22 @@
-import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
-import { RouterLink, RouterLinkActive } from '@angular/router';
-import { IonApp, IonSplitPane, IonMenu, IonContent, IonList, IonListHeader, IonNote, IonMenuToggle, IonItem, IonIcon, IonLabel, IonRouterOutlet } from '@ionic/angular/standalone';
-import { addIcons } from 'ionicons';
-import { cameraOutline, globe} from 'ionicons/icons';
-import {IonicModule} from "@ionic/angular";
+import {CommonModule} from '@angular/common';
+import {Component} from '@angular/core';
+import {RouterLink, RouterLinkActive} from '@angular/router';
+import {
+  IonApp,
+  IonContent,
+  IonIcon,
+  IonItem,
+  IonLabel,
+  IonList,
+  IonListHeader,
+  IonMenu,
+  IonMenuToggle,
+  IonNote,
+  IonRouterOutlet,
+  IonSplitPane
+} from '@ionic/angular/standalone';
+import {addIcons} from 'ionicons';
+import {cameraOutline, globe} from 'ionicons/icons';
 
 @Component({
   selector: 'app-root',

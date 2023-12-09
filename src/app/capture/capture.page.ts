@@ -1,12 +1,12 @@
-import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
-import { IonicModule } from '@ionic/angular';
+import {Component, OnInit} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {FormsModule} from '@angular/forms';
+import {IonicModule} from '@ionic/angular';
 
 import {PhotoService} from "../photo.service";
-import {IonIcon} from "@ionic/angular/standalone";
-import { addIcons } from 'ionicons';
-import {cameraOutline, globe} from "ionicons/icons";
+import {addIcons} from 'ionicons';
+import {cameraOutline} from "ionicons/icons";
+
 @Component({
   selector: 'app-capture',
   templateUrl: './capture.page.html',

@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 import {Camera, CameraResultType, CameraSource} from '@capacitor/camera';
 import {Geolocation} from '@capacitor/geolocation';
 import {addDoc, collection, Firestore} from "@angular/fire/firestore";
-import {Storage, ref, uploadString, getDownloadURL} from "@angular/fire/storage";
+import {getDownloadURL, ref, Storage, uploadString} from "@angular/fire/storage";
 
 @Injectable()
 export class PhotoService {

@@ -1,5 +1,5 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { ViewPage } from './view.page';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
+import {ViewPage} from './view.page';
 
 describe('ViewPage', () => {
   let component: ViewPage;
